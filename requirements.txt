@@ -1,0 +1,6 @@
+En el presente file se detallan todos los paquetes necesarios para poder correr el archivo:
+
+pandas
+datetime
+matplotlib
+
