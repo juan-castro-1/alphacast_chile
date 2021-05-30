@@ -2,7 +2,7 @@
 
 En este README se detallan lo pasos realizados en el script de get_data.py para la carga, transformación y exportación de los indicadores industriales de Chile a un .csv
 
-### Importación de paquetes (lines 1-2)
+### Importación de paquete
 
 Se importan todos los paquetes necesarios para el código, detallados en requirements.txt
 
