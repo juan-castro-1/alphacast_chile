@@ -8,7 +8,7 @@ Se importan todos los paquetes necesarios para el código, detallados en require
 
 ### Sincronización con API del Banco Central de Chile
 
-Se corré el código del BCCh getseries.py donde se crea la función `consultaseries(user,pw,fInic,fFin,series)` para consultar los datos del organizmo. Luego se corre el credentials.py donde estan mis credenciales, user y password, ignorado en GitHub con el .gitignore aproposito para que no sean públicas. Se determinan las fechas y códigos de las variables a utilizar.
+Se corré el código del BCCh getseries.py donde se crea la función `consultaseries(user,pw,fInic,fFin,series)` para consultar los datos del organismo. Luego se corre el credentials.py donde estan mis credenciales, user y password, ignorado en GitHub con el .gitignore aproposito para que no sean públicas. Se determinan las fechas y códigos de las variables a utilizar.
 
 
 ### Fecha e Index
