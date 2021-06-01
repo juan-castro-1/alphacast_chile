@@ -2,19 +2,14 @@ import pandas as pd
 from datetime import datetime
 import os, sys
 
-# armado de produccion
-#data = pd.read_excel('C:\\Users\\juan_\\Dropbox\\Mi PC (LAPTOP-H9MAOJRB)\\Desktop\\alphacast_chile\\produccion_new.xlsx')
-#cols = data.iloc[1]
-#df = data.iloc[2:]
-#df = df.rename(columns=cols)
-#df['Periodo'] = pd.to_datetime(df['Periodo'], errors='coerce').dt.strftime('%Y-%m-%d') 
-#df = df.set_index('Periodo')
-
 os.chdir('C:\\Users\\juan_\\Dropbox\\Mi PC (LAPTOP-H9MAOJRB)\\Desktop\\alphacast_chile')
 exec(open('getseries.py').read())
 exec(open('credentials.py').read())
 f_init = '2003-01-01'
 f_fin = '2021-04-01'
+
+
+# PRODUCCION
 
 S = ['F034.PRN.IND.INE.2014.0.M',
      'F034.PRN.IND.INE.2009.0.M',
@@ -45,15 +40,7 @@ df.index = pd.to_datetime(df.index, errors='coerce').strftime('%Y-%m-%d')
 
 produccion = df
 
-# armado de ventas
-#data = pd.read_excel('C:\\Users\\juan_\\Dropbox\\Mi PC (LAPTOP-H9MAOJRB)\\Desktop\\alphacast_chile\\ventas_new.xlsx')
-#cols = data.iloc[1]
-#df = data.iloc[2:]
-#df = df.rename(columns=cols)
-#df['Periodo'] = pd.to_datetime(df['Periodo'], errors='coerce').dt.strftime('%Y-%m-%d') 
-#df = df.set_index('Periodo')
-
-### aca
+# VENTAS
 
 S = ['F034.VTI.IND.SOF.2014.0.M',
      'F034.VTI.IND.SOF.2003.0.M',
