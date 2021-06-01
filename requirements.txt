@@ -3,4 +3,8 @@ En el presente file se detallan todos los paquetes necesarios para poder correr 
 pandas
 datetime
 matplotlib
-
+zeep
+numpy
+time
+sys
+os
