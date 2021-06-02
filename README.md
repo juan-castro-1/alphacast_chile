@@ -20,11 +20,13 @@ Adicionalmente agregamos un prefijo con el nombre del Índice utilizado a todas 
 - Índice de producción industrial
 - Índice de ventas industrial
 
-*Note: esta parte ya estaba hecha, ya que al bajar los datos de la API las variables se llaman como la base de datos. Igual deje en el código muteado como sería agregarle un prefix.
+*Note: esta parte ya estaba hecha, ya que al bajar los datos de la API las variables se llaman como la base de datos. Igual dejé en el código muteado como sería agregarle un prefix.
 
 ### Join
 
 Luego realizamos un `join` de ambos DataFrames con el index.
+
+*Note: esta parte también puede omitirse si se descargan todas las variables juntas con la API
 
 ### Moving Average
 
